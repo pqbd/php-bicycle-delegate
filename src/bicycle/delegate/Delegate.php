@@ -20,7 +20,14 @@ implements IDelegate
     $result = null;
     foreach ( $this->m_delegateSet as $nIndex => $handler)
     {
-      $result = $handler( ...$args);
+      if ( $handler instanceof IDelegate )
+      {
+        $result = $handler->delegate( ...$args);
+      }
+      else
+      {
+        $result = $handler( ...$args);
+      }
     }
     return $result;
   }
