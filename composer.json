@@ -1,7 +1,7 @@
 {
   "name": "php-bicycle/php-bicycle-delegate"
   , "type": "library"
-  , "description": "delegate is a callable list of callbacks"
+  , "description": "Delegate is a callable list of callbacks."
   , "keywords": [ "alternative", "bicycle", "delegate"]
   , "homepage": "https://github.com/pqbd/php-bicycle-delegate"
   , "license": "BSD-3-Clause"
