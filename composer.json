@@ -1,9 +1,9 @@
 {
-  "name": "php-bicycle/php-bicycle-<NULL>"
+  "name": "php-bicycle/php-bicycle-delegate"
   , "type": "library"
-  , "description": "<NULL> is ..."
-  , "keywords": [ "alternative", "bicycle", "<NULL>"]
-  , "homepage": "https://github.com/pqbd/php-bicycle-<NULL>"
+  , "description": "delegate is a callable list of callbacks"
+  , "keywords": [ "alternative", "bicycle", "delegate"]
+  , "homepage": "https://github.com/pqbd/php-bicycle-delegate"
   , "license": "BSD-3-Clause"
   , "authors": 
   [
@@ -14,8 +14,8 @@
       , "role": "lead"
     }
   ]
-  , "autoload": { "psr-4": { "bicycle\\<NULL>\\": "src/bicycle/<NULL>/" } }
-  , "autoload-dev": { "psr-4": { "bicycle\\<NULL>\\": "tests/bicycle/<NULL>/"} }
+  , "autoload": { "psr-4": { "bicycle\\delegate\\": "src/bicycle/delegate/" } }
+  , "autoload-dev": { "psr-4": { "bicycle\\delegate\\": "tests/bicycle/delegate/"} }
   , "require": 
   {
     "php": ">=5.3.9"
